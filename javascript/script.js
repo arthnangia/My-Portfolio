@@ -18,11 +18,11 @@ function validatorForm() {
     }
     else if(password.value.length<8){
         document.getElementById("error").innerHTML="";
-        alert("password must be 8 character long");
+        alert("Password must be 8 character long");
         return false ;
     }
     else if(password.value!=confirmpass.value){
-        alert("password do not matched!!!  \nplease try again");
+        alert("Password do not matched!!!  \nPlease try again");
         return false ;
     }
     else if(username.value === Name && password.value === pass){
@@ -31,7 +31,7 @@ function validatorForm() {
 
     }
     else {
-        alert("no user from this name, please try with valid ID/PASSWORD \nto get one time access, take your cursor to user icon");
+        alert("No user found. \nIncorrect username and password.");
     return false;
     }
 }
