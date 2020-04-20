@@ -2,7 +2,7 @@ let username=document.getElementById("username");
 let password=document.getElementById("password");
 let confirmpass=document.getElementById("confirm");
 const Name="arthnangia";
-const pass="enactusjemtec";
+const pass="nangiaarth";
 function validatorForm() {
     if(username.value === "") {
         document.getElementById("error").innerHTML="*Username Require";
